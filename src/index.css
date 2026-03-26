@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@theme {
+  --font-segoe: 'Segoe UI', ui-sans-serif, system-ui, sans-serif;
+}
+body{
+  background-color: black;
+}
