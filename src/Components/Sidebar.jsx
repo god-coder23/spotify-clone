@@ -4,7 +4,11 @@ const Sidebar = () => {
   return (
     <div className='p-5 px-3 flex flex-col gap-5 h-screen w-120 '>
       <div className='px-6'>
-        <div className='h-9 w-9 rounded-full bg-white'></div>
+        <img 
+            src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" 
+            className='h-9 w-9' 
+            alt="Spotify" 
+          />
       </div>
       {/*your library and create expand */}
       <div className='h-[85%] w-full bg-white/8 rounded-3xl'>
@@ -44,7 +48,7 @@ const Sidebar = () => {
         {/* button content */}
         <div className='px-3 flex flex-row gap-3'>
           {/* liked songs */}
-          <div className='h-12 w-12 bg-gradient-to-br from-blue-700 via-purple-400 to-purple-100 justify-center items-center flex rounded-md'>
+          <div className='h-12 w-12 bg-gradient-to-br from-blue-700 via-pink-500 to-blue-200 justify-center items-center flex rounded-md'>
             <div className=''>
               <Heart color='white' size={18} fill='white' />
             </div>
